@@ -1,0 +1,32 @@
+# %%
+!pip install pytesseract
+
+# %%
+import pytesseract
+!pip install pdf2image
+from pdf2image import convert_from_path
+
+import pytesseract
+!pip install pandas
+import pandas as pd
+
+# %%
+
+!brew install poppler
+
+# %%
+
+
+# %%
+# Convert PDF to images
+from pdf2image import convert_from_path
+pdf_path = '/System/Volumes/Data/home/4115099234/Desktop/page1.pdf'
+pop_path = '/usr/local/brew/bin/pdftoppm'
+images = convert_from_path(pdf_path, pop_path)
+#cannot find pdf if on public computer, need to have access to admin
+
+
+# %%
+
+
+
